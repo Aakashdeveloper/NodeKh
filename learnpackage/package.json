@@ -1,0 +1,18 @@
+{
+  "name": "learnpackage",
+  "version": "1.0.0",
+  "description": "this is about nodejs",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "KH",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5"
+  }
+}

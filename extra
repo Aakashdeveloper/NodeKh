@@ -1,0 +1,24 @@
+Single Thread
+Non Blocking
+Async
+
+I/O
+
+Package.json
+> Starting point of app
+> Contains all the Package
+> it Contains commands
+> Meta Data (version, description, script)
+
+//Step to generate package.json
+** NodeJs must be install in system
+> open cmd and go inside folder
+> npm init
+> Answer all questions
+> type yes
+
+
+npm init -y
+
+npm i packagname
+npm install packagname
