@@ -22,3 +22,16 @@ npm init -y
 
 npm i packagname
 npm install packagname
+
+http://3.17.216.66:4000/location
+https://randomuser.me/
+
+C > Create  > POST
+R > Read    > GET
+U > Update  > PUT/PATCH
+D > Delete  > DELETE
+
+req > request
+res > response
+
+
