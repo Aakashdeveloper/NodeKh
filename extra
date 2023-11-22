@@ -33,3 +33,11 @@ D > Delete  > DELETE
 
 req > request
 res > response
+
+
+///install global package
+> open cmd as admin
+> npm i -g nodemon
+
+cors
+cross origin resource sharing
