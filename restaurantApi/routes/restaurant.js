@@ -1,20 +1,14 @@
 const express = require('express');
 const router = express.Router();
 const passport = require('passport');
+const restaurantController = require('../controller/RestaurantController')
 
-router.get('/all',(req,res) => {
-    res.json({message:"All Restaurants"})
-});
+router.get('/all',restaurantController.getAll);
 
-router.get("/get/:id",(req,res) => {
-    let id = req.params.id
-    res.json({message:`Restaurant with ${id}`})
-});
+router.get("/get/:id",restaurantController.getRestaurantById);
 
 
-router.post('/add',(req,res) => {
-    res.json({message:'Add Restaurants'})
-});
+router.post('/add',restaurantController.addRestaurant);
 
 router.put('/rupdate',(req,res) => {
     res.json({message:'Restaurant Updated'})

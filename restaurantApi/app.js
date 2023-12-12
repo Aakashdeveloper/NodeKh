@@ -11,6 +11,7 @@ const review = require("./routes/review");
 
 // middleware
 app.use(passport.initialize());
+require('./passport.js')(passport)
 app.use(express.urlencoded({extended:true}));
 app.use(express.json());
 
