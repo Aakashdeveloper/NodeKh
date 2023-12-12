@@ -1,0 +1,46 @@
+SQL         MongoDB
+Database    Database
+Table       Collection
+Row         Document
+Select      Find
+Insert      Insert
+Delete      Remove
+Update      Update
+
+
+
+SignUp on mongodb cloud
+> https://cloud.mongodb.com/
+
+// Creat cluster
+> Shared > Cloud Provider > AWS
+> Cluster Tier > M0 SandBox
+> Create Cluster
+
+
+Database > Browse Collection > Create Base > Add Database+Collection
+
+// connect to db
+
+Database > Drivers > NodejS
+# Connection String
+* mongodb+srv://<username>:<password>@cluster0.f8vmc.mongodb.net/?retryWrites=true&w=majority
+
+
+Network Access > Add IP Address 
+Access List Entry: 0.0.0.0/0
+Comment: Open IP
+
+Database Access > Add New Database User
+
+test:d7WwUK4f8G0gyih
+
+Built-in Role > Atlas Admin >Add User
+
+
+# mongodb+srv://test:d7WwUK4f8G0gyih@cluster0.f8vmc.mongodb.net/?retryWrites=true&w=majority
+
+> Download and install
+> https://www.mongodb.com/try/download/compass
+
+> Connect > New Window

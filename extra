@@ -42,4 +42,25 @@ res > response
 cors
 cross origin resource sharing
 
+// SQl
+Rollno | Hindi | English |
+  1    |  80   |         |
+  2    |       |  78     |
+  3    |  89   |         |
 
+
+//Mongodb
+[
+    {
+        "RollNo":1,
+        "Hindi":80
+    },
+    {
+        "RollNo":2,
+        "English":78
+    },
+    {
+        "RollNo":3,
+        "Hindi":89
+    }
+]
