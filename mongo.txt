@@ -12,5 +12,13 @@ db.collectionName.find()
 
 db.restaurants.find()
 
+// find with condition
+db.restaurants.find({state_id:3,average_rating:5})
+
+//projection 
+db.collectionName.find({condition},{projection})
+
+db.restaurants.find({state_id:3},{restaurant_name:1,state_id:1,address:1})
 
 
+db.restaurants.find({state_id:3},{restaurant_name:1,state_id:1,address:1,_id:0})
