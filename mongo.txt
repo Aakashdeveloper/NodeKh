@@ -1,7 +1,16 @@
 // See all dbs
 show dbs
 
+//go inside db
+use dbname
+
+// see all collections
 
 // Find all Data
+db.collectionName.find()
+
+
+db.restaurants.find()
+
 
 
