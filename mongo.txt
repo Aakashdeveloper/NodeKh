@@ -196,3 +196,98 @@ Patient{
  ]
  Medical_Record:{}
 }
+
+
+///////////////////////////////////////Travel///////////////////////////
+user{
+ userId:"",
+ name:"",
+ contact_Details:"",
+ booking_history_flight:[],
+ booking_history_hotel:[]
+}
+flight{
+ flightId:"",
+ airline,
+ source:"",
+ destination:"",
+ datetime:"",
+ price:""
+}
+hotel{
+ hotelId:"",
+ name:"",
+ location:"",
+ price:"",
+ availability:""
+}
+booking{
+ bookingId:"",
+ userId:"",
+ flightId:"",
+ hotel_id:"",
+ bookingDate:"",
+ status:""
+}
+review{
+  reviewId,
+  userId:""
+  reviewComment,
+}
+
+
+
+user{
+ userId:"",
+ name:"",
+ contact_Details:"",
+ booking_history_flight:[
+   {
+    flightId:"",
+    airline,
+    source:"",
+    destination:"",
+    datetime:"",
+    price:"",
+    status:""
+  }
+ ],
+ booking_history_hotel:[
+   {
+     hotelId:"",
+     name:"",
+     location:"",
+     price:"",
+     availability:"",
+     status:""
+  }
+ ]
+}
+flight{
+ flightId:"",
+ airline,
+ source:"",
+ destination:"",
+ datetime:"",
+ price:"",
+ review:{
+  reviewId,
+  userId:""
+  reviewComment,
+ }
+}
+hotel{
+ hotelId:"",
+ name:"",
+ location:"",
+ price:"",
+ availability:"",
+ review:{
+   reviewId,
+   userId:""
+   reviewComment,
+ }
+}
+
+
+
