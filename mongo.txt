@@ -140,4 +140,59 @@ post{
      ]
   }
 
+////////////////////////////Health Care////////////////////
+Doctor{
+ _id:"",
+ DocName:"",
+ Degree:"",
+ Spel:"",
+ fee:"",
+ exp:""
+}
+Patient{
+  _id:"",
+ patient_name:"",
+ appointmentsId:"",
+ age:"",
+ medical_Record:"
+}
+Appointments{
+ _id:"",
+ timeStamp:"",
+ patientId:"",
+ doctorId:""
+}
+Medical Record{
+ _id:"",
+ patientId:"",
+ content:""
+}
 
+
+Doctor{
+ _id:"",
+ DocName:"",
+ Degree:"",
+ Spel:"",
+ fee:"",
+ exp:""
+}
+
+Patient{
+ _id:"",
+ patient_name:"",
+ appointmentsId:"",
+ age:"",
+ medical_Record:",
+ Appointments:[
+    {
+     timeStamp:"",
+     doctorId:""
+    },
+    {
+     timeStamp:"",
+     doctorId:""
+    }
+ ]
+ Medical_Record:{}
+}
