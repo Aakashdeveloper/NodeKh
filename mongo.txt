@@ -22,3 +22,122 @@ db.restaurants.find({state_id:3},{restaurant_name:1,state_id:1,address:1})
 
 
 db.restaurants.find({state_id:3},{restaurant_name:1,state_id:1,address:1,_id:0})
+
+////Social Media
+> Noramalised
+User{
+ _id:""
+ Username:"",
+ email:"",
+ password:"",
+ profile_Details:{
+  address:"",
+  contect_no:"", 
+  gender:"",
+  age:""
+ }
+}
+Post{
+ _id:""
+ userId:"",
+ post_content:"",
+ timestamp:"",
+ likes:[],
+ commentsId:[]
+}
+Comment{
+ _id:""
+ userId:"",
+ postId:""
+ comment_content:"",
+ timestamp:"",
+}
+Like{
+  _id:""
+  userId:"",
+  postId:""
+}
+
+
+nested part 1
+User{
+ _id:""
+ Username:"",
+ email:"",
+ password:"",
+ profile_Details:{
+  address:"",
+  contect_no:"", 
+  gender:"",
+  age:""
+ },
+ post:[
+  {
+     userId:"",
+     userName:""
+     post_content:"",
+     timestamp:"",
+     likes:[
+       userId:"",userId:"",userId:"",userId:""
+     ],
+     commentsId:[
+        {
+          userId:"",
+         userName:""
+         comment_content:"",
+         timestamp:"",
+        },
+        {
+         userId:"",
+         userName:""
+         comment_content:"",
+         timestamp:"",
+        }
+     ]
+  }
+ ]
+}
+
+
+nested part 2  best
+User{
+ _id:""
+ Username:"",
+ email:"",
+ password:"",
+ profile_Details:{
+  address:"",
+  contect_no:"", 
+  gender:"",
+  age:""
+ },
+ posts:[post_id:"",post_id:"",post_id:""]
+ 
+}
+
+post{
+     _id:""
+     userId:"",
+     userName:""
+     post_content:"",
+     timestamp:"",
+     likes:[
+       userId:"",userId:"",userId:"",userId:""
+     ],
+     commentsId:[
+        {
+          userId:"",
+         userName:""
+         comment_content:"",
+         timestamp:"",
+        },
+        {
+         userId:"",
+         userName:""
+         comment_content:"",
+         timestamp:"",
+        }
+     ]
+  }
+
+
